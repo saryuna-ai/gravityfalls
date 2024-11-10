@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*@media screen and (max-width: 400px){
+    .text{
+        font-size: 100%;
+    }
+    .plotText{
+        font-size: 100%;
+    }
+
+    .Person img{
+        height: 50px;
+        width: 50px;
+    }
+    .CharactersBlock{
+        display: flexbox;
+        flex-direction: column;
+        padding: 10px 90px;
+    }
+    .personName{
+        margin-top: 150px;
+        font-size: 30px;
+    }
+    .intfactBox{
+        height: 250px;
+    }
+    .intfactText{
+        height: 220px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 769px){
+    .text{
+        font-size: 10%;
+    }
+    .plotText{
+        font-size: 100%;
+    }
+
+    .Person img{
+        height: auto;
+        width: 100px;
+    }
+    .CharactersBlock{
+        height: 1600px;
+    }
+    .personName{
+        margin-top: 150px;
+        font-size: 30px;
+    }
+    .intfactBox{
+        height: 130px;
+    }
+    .intfactText{
+        height: 110px;
+    }
+}
+*/
+body {
+    font-family: 'academy engraved let';
+    background-color: #000000;
+    color: #ffffff;
+}
+header{    
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+.nav {
+    background-color: #858585;
+    padding: 10px;
+    text-align: center;
+}
+.nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-link:hover {
+    background-color: #472a00;
+}
+.headerImg img{
+    max-width: 100%;
+}
+.container{
+    text-align: center;
+    overflow: hidden;
+}
+.h2-text{
+    font-size: 40px;
+    background-color: #858585;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+.authorBlock{
+    display: flexbox;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    padding: 30px 90px;
+}
+.authorText{
+    text-align: right;
+}
+.authorBlock img{
+    max-width: 100%;
+}
+.Name{
+    height: auto;
+    padding: 20px;
+    font-size: 80px;
+    text-align: center;
+}
+.text {
+    background-color: #472200;
+    height: auto;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    text-align: justify;
+}
+.plotBox{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 30px 90px;
+}
+.plotText{
+    background-color:#472200;
+    height: auto;
+    padding: 30px;
+    border: 3px solid white;
+    border-radius: 30px;
+    text-align: justify;
+}
+.CharactersBlock {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;
+    text-align: center; 
+}
+
+.Person {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 200px;
+    margin: 20px; 
+}
+
+.Person img {
+    width: 100px; 
+}
+h3{
+    font-size: 30px;
+    margin: 50p;
+}
+.intfactBox{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 30px 90px;
+}
+.intfactText{
+    background-color:#472200;
+    padding: 30px;
+    border: 3px solid white;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+.footerBox{
+    background-color:#858585;
+    height: auto;
+    padding: 10px 90px;
+}
+
+.footerItem{
+    font-size: 30px;
+}
+.footerItem a{
+    text-decoration: none;
+    color: white;
+}
+.footerItem a:hover{
+    color: rgb(99, 159, 255);
+}
